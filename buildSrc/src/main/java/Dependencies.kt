@@ -28,7 +28,7 @@ object Versions {
     const val swipeRefreshLayout = "1.1.0"
     const val coroutines = "1.5.1"
     const val koinVersions = "3.1.2"
-    const val roomVersions = "2.3.0"
+    const val roomVersions = "2.4.3"
     const val glideVersions= "4.11.0"
     const val viewBindingDelegateVersions = "1.4.7"
     const val retrofitCoroutineVersion = "0.9.2"

@@ -7,15 +7,15 @@ import com.tlenparty.dictionary.helpers.consts.DB
 
 @Database(
     entities = [
-        SearchHistory::class
-//        SearchDataDB::class,
-//        MeaningDB::class,
-//        Favorite::class
+        SearchHistory::class,
+        SearchDataDB::class,
+        MeaningDB::class,
+        Favorite::class
     ], version = DB.VERSION, exportSchema = false
 )
 abstract class AppDB : RoomDatabase() {
     abstract fun searchHistoryDao(): SearchHistoryDao
-//    abstract fun searchDataDao(): SearchDataDao
-//    abstract fun meaningDao(): MeaningDao
-//    abstract fun favoriteDao(): FavoriteDao
+    abstract fun searchDataDao(): SearchDataDao
+    abstract fun meaningDao(): MeaningDao
+    abstract fun favoriteDao(): FavoriteDao
 }
