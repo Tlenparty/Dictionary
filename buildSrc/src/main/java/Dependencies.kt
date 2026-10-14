@@ -3,7 +3,7 @@ import org.gradle.api.JavaVersion
 object Config {
     const val compileSdk = 31
     const val BUILD_TOOLS_VERSION = "30.0.2"
-    const val APPLICATION_ID = "com.geekbrains.dictionary"
+    const val APPLICATION_ID = "com.tlenparty.dictionary"
     const val MIN_SDK = 21
     const val TARGET_SDK = 31
     const val VERSION_CODE = 1
